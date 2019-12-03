@@ -172,7 +172,7 @@ body{
 .box {
     width: 1440px;
     height: 959px;
-    background-image: url("../IMG/FirstPagePic.png");
+    background-image: url("../img/FirstPagePic.png");
     background-size: cover;
     background-position: center;
     display:block;
@@ -311,7 +311,7 @@ a:hover {
 }
 
 .main-footer{
-    background-image: url("../IMG/FooterPic.png");
+    background-image: url("../img/FooterPic.png");
     margin 0 auto;
     width: 1440px;
     height:60px;
@@ -322,7 +322,7 @@ a:hover {
 }
 
 .container{
-    background-image: url("../IMG/M.png");
+    background-image: url("../img/M.png");
     width: 1440px;
     height:680px;
     background-position: center;
@@ -331,7 +331,7 @@ a:hover {
 }
 
 .third-page{
-    background-image: url("../IMG/Testimonial Pic.png");
+    background-image: url("../img/Testimonial Pic.png");
     width: 1440px;
     height:600px;
     background-position: center;
