@@ -1,0 +1,338 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+.pageheader {
+    padding: 30px 0px
+}
+ 
+.main-menu {
+    float:right;
+    height:30px; 
+}
+
+.logo {
+    text-decoration: none;
+    display:inline-block;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+    float: left;
+    text-align:left;
+    margin: 0px 15px;
+}
+
+ul.main-menu {
+    float:right;
+    height:30px;
+}
+
+li.main-menu{
+    line-height: 30Px;
+    padding: 0px 15px;
+    margin-left: 10Px;
+    float:left;
+    list-style-type: none;
+}
+
+a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a .main-menu-store{
+    margin-right: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    clear: both;    
+    width:500 px;
+    margin:0 auto;
+    text-align:center;
+}
+
+h3:before {
+    content:"";
+    background: white;
+    height:2px;
+    width:450px;
+    display:block;
+    margin-left:162px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+}
+
+.lt,.rt{
+    background:transparent;
+    width: 208px;
+    height: 92px;
+    border: 0;
+    z-index: 1;
+}
+ 
+ .rt {
+     position: absolute;
+     right: 480px;
+     top: 573px;
+     }
+ 
+ .lt {
+     position: absolute;
+     left: 480px;
+     top: 573px;
+}
+
+.lt:hover {
+    background:chocolate;
+    border-radius: 8px;
+    }
+
+.rt:hover {
+    background:chocolate;
+    border-radius: 8px;
+    }
+
+h3{
+    clear: both;    
+    width:500 px;
+    margin:30 auto;
+    text-align:center;
+}
+
+.main-menu-link {
+    font-size: 16px;
+    font-weight:400;
+    text-decoration:none;
+    color:white;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.some-text{
+    font-size: 72px;
+    font-weight:400;
+    text-decoration:none;
+    color:white;
+    line-height: 1.5;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.extra-text{
+    font-size: 48px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color: white;
+    line-height: 1.5;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.name{
+    font-size: 18px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:black;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.testimonials{
+    font-size: 16px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:black;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.footer-items-list {
+    font-size: 16px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:white;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+body{
+    background-color:#DCD9CD;
+}
+
+.box {
+    width: 1440px;
+    height: 959px;
+    background-image: url("../IMG/FirstPagePic.png");
+    background-size: cover;
+    background-position: center;
+    display:block;
+    margin:0;
+    padding:0;
+}
+.page-title{
+    font-size: 24px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:black;
+    line-height: 1.5;
+    font-family:  'IBM Plex Serif', serif;
+}
+
+.main-text {
+    font-size: 16px;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    color:black;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin:20px 0 30px 0;
+}
+
+.pic_wrapper {
+    position: relative;
+    display: inline-block;
+    top:50px;
+    right:55px;
+    width:451px;
+    height:518px;
+}
+
+.description-content{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin:150 auto;
+    vertical-align: top;
+}
+
+.main-text{
+    margin: 20px 0;
+}
+.head_3 {
+    text-align: center;
+}
+
+.third-page{
+    text-align: center;
+    margin:160px 0 30px 0;
+}
+
+.user-list{
+    text-align: center;
+    margin:20px 0 30px 0;
+}
+
+.user-list-item{
+    display: inline-block;
+    width:40%;
+}
+
+.photo{
+    position: relative;
+    display: inline-block;
+    margin: 40 20 0 15px;
+}
+
+.review{
+    display:inline-block;
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin:70 auto 20 0;
+    vertical-align: top;
+}
+
+.testimonials {
+    margin: 20px 0;
+}
+
+.main-footer{
+    padding: 30px 0px
+}
+
+.user-list{
+    margin: 50 0 235 0;
+}
+.link-items {
+    float:right;
+    height:30px;   
+}
+
+.second-menu{
+    float:right;
+    height:30px; 
+}
+
+ul.footer-links {
+    float:right;
+    height:30px;
+    margin:10px;
+}
+
+li.links-items{
+    line-height: 30Px;
+    padding: 0px 15px;
+    margin-left: 10Px;
+    float:left;
+    list-style-type: none;
+}
+
+a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a .second-menu{
+    margin-right: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-footer{
+    background-image: url("../IMG/FooterPic.png");
+    margin 0 auto;
+    width: 1440px;
+    height:60px;
+    background-size: cover;
+    background-position: center;
+    display:block;
+    padding:0;
+}
+
+.container{
+    background-image: url("../IMG/M.png");
+    width: 1440px;
+    height:680px;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+}
+
+.third-page{
+    background-image: url("../IMG/Testimonial Pic.png");
+    width: 1440px;
+    height:600px;
+    background-position: center;
+}
